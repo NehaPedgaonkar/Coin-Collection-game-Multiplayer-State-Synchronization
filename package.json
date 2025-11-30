@@ -1,0 +1,14 @@
+{
+  "name": "coin-collector-multiplayer",
+  "version": "1.0.0",
+  "description": "Authoritative Coin Collector demo for Multiplayer State Synchronization test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "npx http-server -c-1 -p 8000"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {}
+}
